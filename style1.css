@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    font-size: 16px;
+
+}
+.first-div{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+}
+
+#pow{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.custom-height{
+    height: 400px;
+}
+.card{
+    height: 200px;
+}
+
+.card-title{
+    margin-left:25px;
+    font-weight: bolder;
+    font-size: 25px
+}
+
+
+#hr1{
+    margin-top: 0px;
+   background-color: hsl(180, 62%, 55%); 
+   height: 2px;
+}
+
+.card-text{
+    margin-left: 20px;
+    font-size: small;
+    padding-right: 40px;
+    
+}
+
+.card-image{
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
+
+#hr2{
+    margin-top: 0px;
+   background-color: hsl(0, 78%, 62%); 
+   height: 2px;
+}
+
+#hr3{
+    margin-top: 0px;
+   background-color: hsl(34, 97%, 64%); 
+   height: 2px;
+}
+
+.card1{
+    margin-top: 100px;
+}
+
+.card2{
+    margin-bottom: 20px;
+}
+
+.card4{
+    margin-top: 100px;
+}
+
+#hr4{
+    margin-top: 0px;
+   background-color: hsl(212, 86%, 64%); 
+   height: 2px;
+}
+@media only screen and (max-width: 790px) {
+   
+   
+
+    .custom-height, .mid{
+        height: auto;
+    }
+
+    #pow{
+        margin-top: 10px;
+    }
+
+    .card{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .first-div h2{
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .first-div p{
+        margin-top: 0px;
+        font-size: 17px;
+    }
+
+    .first-div{
+        margin-top: 20px;
+        width: 100%;
+        font-size: small;
+        text-align: center;
+        margin-bottom: auto;
+        margin-left: auto;
+        
+
+    }
+    
+  }
